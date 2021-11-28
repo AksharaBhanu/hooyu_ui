@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="runner.TestRunner" time="16.417" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="runner.TestRunner" time="32.526" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="F:\Project_POC\Framework\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7161163600533683531.tmp"/>
+    <property name="classworlds.conf" value="F:\Project_POC\Framework\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8614830099213897901.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_281\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-16.0.1\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\user\AppData\Local\Programs\Python\Python310;C:\Users\user\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\apache-maven-3.6.3\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.2\bin;;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Users\user\Desktop\Anjana Creations\ffmpeg\build\bin;F:\AA\maven\apache-maven-3.8.2\bin;C:\Users\user\AppData\Local\GitHubDesktop\bin;C:\Users\user\AppData\Local\Programs\Python\Python310;C:\Users\user\AppData\Local\Programs\Python\Python310\Scripts;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,6 +61,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Register a New User" name="Register New User - Valid" time="9.194"/>
-  <testcase classname="Register a New User" name="Register New User -Invalid" time="7.223"/>
+  <testcase classname="Checkout product" name="Checkout watches - Valid" time="15.931"/>
+  <testcase classname="Register a New User" name="Register New User - Valid" time="9.27"/>
+  <testcase classname="Register a New User" name="Register New User -Invalid" time="7.325"/>
 </testsuite>

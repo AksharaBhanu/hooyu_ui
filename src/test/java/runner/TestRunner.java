@@ -17,6 +17,7 @@ import utils.GenericUtils;
 		plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
 		snippets = SnippetType.CAMELCASE,
 		dryRun = false
+//		tags = "@smoke"
 )
 public class TestRunner {
 

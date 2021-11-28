@@ -31,10 +31,10 @@ public class SeleniumUtil {
 		try {
 			wait.until(ExpectedConditions.visibilityOf(element));
 			element.sendKeys(input);
-			System.out.println("Able to enter the input");
+			System.out.println("Able to enter the input:"+input);
 		}
 		catch (Exception e) {
-			Assert.fail("Element not visible to enter input");
+			Assert.fail("Element not visible to enter input:"+input);
 			e.printStackTrace();
 		}
 	}
@@ -43,11 +43,11 @@ public class SeleniumUtil {
 	{
 		try {
 			wait.until(ExpectedConditions.titleContains(eTitle));
-			System.out.println("Title is matching");
+			System.out.println("Title is matching:"+eTitle);
 //			Thread.sleep(4000);
 		}
 		catch (Exception e) {
-			Assert.fail("Title is not matching");
+			Assert.fail("Title is not matching:"+eTitle);
 			e.printStackTrace();
 		}
 		
@@ -62,7 +62,7 @@ public class SeleniumUtil {
 		}
 		catch (Exception e) {
 			Assert.fail("Element is Not Present");
-			e.printStackTrace();
+//			e.printStackTrace();
 		}
 		
 	}

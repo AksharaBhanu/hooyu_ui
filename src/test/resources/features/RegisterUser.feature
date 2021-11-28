@@ -11,8 +11,8 @@ Feature: Register a New User
 		When User enters below inputs in "Register Page"
 		|firstName|Bhanu|
 		|lastName|Prakash|
-		|email|javagalbhanu3@gmail.com|
-		|retypeEmail|javagalbhanu3@gmail.com|
+		|email|javagalbhanu4@gmail.com|
+		|retypeEmail|javagalbhanu4@gmail.com|
 		|password|bhanu123|		
 		|retypePassword|bhanu123|		
 		|mobileNumber|0873628000|			

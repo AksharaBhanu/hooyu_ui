@@ -44,22 +44,22 @@
 ### Screenshots:
 -----------------------------------------------------------------------------------------------------------------------------------
 - Framework Folder structure
-- ![This is folder structure image](test-output/reports/Folder_structure.png)
+- ![This is folder structure image](test-output/reports/Folder_structure_UI.png)
 
 -----------------------------------------------------------------------------------------------------------------------------------
 - Framework Feature File
-- ![This is framework feature file image](test-output/reports/Sample_Scenario.png)
+- ![This is framework feature file image](test-output/reports/Sample_Scenario_UI.png)
 
 -----------------------------------------------------------------------------------------------------------------------------------
 - Framework PDF Report
-- ![This is framework PDF Report image](test-output/reports/report_pdf.png)
+- ![This is framework PDF Report image](test-output/reports/report_pdf_UI.png)
 
 -----------------------------------------------------------------------------------------------------------------------------------
 - Framework HTML Report
-- ![This is framework HTML Report image](test-output/reports/report_html.png)
+- ![This is framework HTML Report image](test-output/reports/report_html_UI.png)
 
 -----------------------------------------------------------------------------------------------------------------------------------
 - Jenkins CI Execution Report
-- ![This is framework CI execution Report image](test-output/reports/Jenkins.png)
+- ![This is framework CI execution Report image](test-output/reports/Jenkins_UI.png)
 
 -----------------------------------------------------------------------------------------------------------------------------------

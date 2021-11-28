@@ -34,6 +34,7 @@
 ### Framework Enhancements:
 - Test Data generation mechanism for all data including Email, Product, etc
 - Parallel execution for feature files is achieved with sure-fire plugin for Maven
+- Capturing application screenshot for failed steps and integrating it in reporting
 - Modularization of scenarios/feature files based on functionality
 - Extensive tagging for features / scenarios to control the execution at granular level. Example execute only smoke, only P1 scenarios etc
 - Jenkins CI enhancement to send email notification post build 

@@ -18,16 +18,15 @@ Feature: Register a New User
 		|mobileNumber|0873628000|			
 		And User clicks on "registerNow" element in "Register Page"
 		Then Verify "welcomeToFamily" message is displayed on "Register Page"
-#
-#Scenario: Register New User -Invalid
-#		Given User is on "Register on Takealot" page
-#		When User enters "<input>" in "<field>" TextBox
-#		|input|field|
-#		|FN|Bhanu|
-#		|LN|Prakash|
-#		|Email|javagalbhanu@gmail.com|
-#		|Retype Email|javagalbhanu@gmail.com|
-#		|Password|bhanu123|		
-#		|Retype Password|bhanu123|				
-#		And User clicks on "Register Now" button
-#		Then "No Mobile/Phone Number Specified" message is displayed 
+
+Scenario: Register New User -Invalid
+		Given User is on "Register on Takealot" page
+		When User enters below inputs in "Register Page"
+		|firstName|Bhanu|
+		|lastName|Prakash|
+		|email|javagalbhanu4@gmail.com|
+		|retypeEmail|javagalbhanu4@gmail.com|
+		|password|bhanu123|		
+		|retypePassword|bhanu123|				
+		And User clicks on "registerNow" element in "Register Page"
+		Then Verify "noMobileNumber" message is displayed on "Register Page"

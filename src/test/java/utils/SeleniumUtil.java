@@ -4,9 +4,6 @@ import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-import pages.BasePage;
-import pages.HomePage;
 import pages.ITakealot;
 
 public class SeleniumUtil {
@@ -18,7 +15,6 @@ public class SeleniumUtil {
 			wait.until(ExpectedConditions.visibilityOf(element));
 			element.click();
 			System.out.println("Able to click on the element");
-//			Thread.sleep(4000);
 		}
 		catch (Exception e) {
 			Assert.fail("Element not visible to click");
@@ -34,7 +30,7 @@ public class SeleniumUtil {
 			System.out.println("Able to enter the input:"+input);
 		}
 		catch (Exception e) {
-			Assert.fail("Element not visible to enter input:"+input);
+			Assert.fail("Element not visible, to enter input:"+input);
 			e.printStackTrace();
 		}
 	}
@@ -44,7 +40,6 @@ public class SeleniumUtil {
 		try {
 			wait.until(ExpectedConditions.titleContains(eTitle));
 			System.out.println("Title is matching:"+eTitle);
-//			Thread.sleep(4000);
 		}
 		catch (Exception e) {
 			Assert.fail("Title is not matching:"+eTitle);
@@ -62,7 +57,6 @@ public class SeleniumUtil {
 		}
 		catch (Exception e) {
 			Assert.fail("Element is Not Present");
-//			e.printStackTrace();
 		}
 		
 	}
@@ -71,6 +65,7 @@ public class SeleniumUtil {
 	{
 		try
 		{
+			System.out.println("Clicking on the element:"+elementName);
 			takealotPage.clickElement(elementName);
 		}
 		catch (Exception e) {
@@ -82,6 +77,7 @@ public class SeleniumUtil {
 	{
 		try
 		{
+			System.out.println("enterting input '"+input+"' in the element:"+elementName);
 			takealotPage.enterInput(elementName, input);
 		}
 		catch (Exception e) {
@@ -93,6 +89,7 @@ public class SeleniumUtil {
 	{
 		try
 		{
+			System.out.println("Verifying the element:'"+elementName+"' present or not");
 			takealotPage.verifyElementPresent(elementName);
 		}
 		catch (Exception e) {
@@ -104,6 +101,7 @@ public class SeleniumUtil {
 	{
 		try
 		{
+			System.out.println("Verifying the Title:"+eTitle);
 			takealotPage.verifyTitle(eTitle);
 		}
 		catch (Exception e) {

@@ -31,6 +31,7 @@ public class TestRunner {
 		BaseUtils.appUrl = url;
 		BaseUtils.browser=browser;
 		BaseUtils.duration = duration;
+		BaseUtils.now=System.currentTimeMillis();
 	}
 }
 

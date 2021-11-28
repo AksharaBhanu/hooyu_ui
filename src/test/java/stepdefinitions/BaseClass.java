@@ -36,7 +36,7 @@ public class BaseClass {
 		default:
 			break;
 		}
-		
+		baseUtils.driver.manage().window().maximize();
 		baseUtils.driver.get(BaseUtils.appUrl);
 		baseUtils.driver.manage().timeouts().implicitlyWait(BaseUtils.duration,TimeUnit.SECONDS);
 		baseUtils.wait=new WebDriverWait(baseUtils.driver,BaseUtils.duration);

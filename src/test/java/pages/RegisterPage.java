@@ -34,6 +34,9 @@ public class RegisterPage extends BasePage{
 	@FindBy(xpath="//h3[text()='Welcome to the TAKEALOT.com family!']")
 	public WebElement welcomeToFamily;
 	
+	@FindBy(xpath="//span[text()='No Mobile/Phone Number Specified']")
+	public WebElement noMobileNumber;
+
 	public RegisterPage(WebDriver driver, WebDriverWait wait) {
 		super(driver, wait);
 		

@@ -17,6 +17,7 @@ public class BaseUtils {
 	public static long duration;
 	public static String appUrl;
 	public static String browser;
+	public static long now;
 	
 }
 
